@@ -1,0 +1,36 @@
+.mainHeader {
+  background-color: rgb(255, 240, 238);
+	padding: 15px;
+	box-shadow: 0 0 20px rgb(227, 227, 227);
+}
+.wrapper {
+	max-width: 768px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.profile {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	font-size: 12px;
+	background: linear-gradient(45deg, #2f467a, #5b4f80);
+	padding: 7px 15px;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	transition: all .2s ease-out;
+
+	&:hover {
+		opacity: .9;
+	}
+}
+
+.avatar {
+	width: 30px;
+	height: 30px;
+	display: block;
+	border-radius: 50px;
+}
